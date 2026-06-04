@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venture Tomorrow | Markham</title>
+    <!-- This script pulls in Tailwind CSS to make the site look beautiful automatically -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans leading-relaxed">
+
+    <!-- HERO SECTION -->
+    <header class="bg-blue-900 text-white py-20 px-6 text-center">
+        <h1 class="text-5xl font-extrabold mb-4 tracking-tight">Venture Tomorrow</h1>
+        <p class="text-xl max-w-2xl mx-auto font-light">
+            <span class="font-bold text-blue-300">V</span>enture
+            <span class="font-bold text-blue-300">E</span>ngine for
+            <span class="font-bold text-blue-300">N</span>ext-gen
+            <span class="font-bold text-blue-300">T</span>ech
+            <span class="font-bold text-blue-300">U</span>tilizing
+            <span class="font-bold text-blue-300">R</span>evolutionary
+            <span class="font-bold text-blue-300">E</span>ntrepreneurship
+        </p>
+    </header>
+
+    <!-- THE OPPORTUNITY (HOOK) -->
+    <section class="py-16 px-6 max-w-4xl mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-6 text-gray-900">The Opportunity</h2>
+        <p class="text-lg text-gray-600">
+            Most young people in Markham don't see AI and tech entrepreneurship as their future. There's a growing gap between AI literacy and access to foundational education, mentorship, and real-world opportunities. <strong class="text-blue-900">We're here to close that gap.</strong>
+        </p>
+    </section>
+
+    <!-- WHAT WE DO -->
+    <section class="bg-white py-16 px-6 border-y border-gray-200">
+        <div class="max-w-5xl mx-auto">
+            <h2 class="text-3xl font-bold mb-10 text-center text-gray-900">What We Do</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="p-6 bg-blue-50 rounded-lg shadow-sm border border-blue-100">
+                    <h3 class="text-xl font-bold mb-3 text-blue-900">Workshops</h3>
+                    <p class="text-gray-700">Hands-on learning in AI, entrepreneurship, and innovation designed specifically for middle schoolers (Grades 5-8).</p>
+                </div>
+                <div class="p-6 bg-blue-50 rounded-lg shadow-sm border border-blue-100">
+                    <h3 class="text-xl font-bold mb-3 text-blue-900">Competition</h3>
+                    <p class="text-gray-700">A showcase platform where students pitch ideas, build projects, and compete in a supportive environment.</p>
+                </div>
+                <div class="p-6 bg-blue-50 rounded-lg shadow-sm border border-blue-100">
+                    <h3 class="text-xl font-bold mb-3 text-blue-900">Pipeline</h3>
+                    <p class="text-gray-700">A sustained pathway connecting curious students to mentors, industry professionals, and ongoing opportunities.</p>
+                </div>
+            </div>
+            <p class="mt-10 text-center text-lg font-medium text-gray-800">
+                We're building the next generation of tech founders, creators, and leaders who understand that entrepreneurship and AI innovation can start right here in Markham.
+            </p>
+        </div>
+    </section>
+
+    <!-- WHY THIS MATTERS & WHAT WE NEED -->
+    <section class="py-16 px-6 max-w-5xl mx-auto grid md:grid-cols-2 gap-12">
+        <div>
+            <h2 class="text-3xl font-bold mb-6 text-gray-900">Why You?</h2>
+            <p class="mb-4 text-gray-600">If you're someone who:</p>
+            <ul class="list-disc pl-5 space-y-2 text-gray-700">
+                <li>Believes in AI education as a critical skill for the future</li>
+                <li>Has entrepreneurial roots and wants to pass that forward</li>
+                <li>Has a genuine connection to Markham and sees the potential in our youth</li>
+                <li>Wants to build something meaningful alongside a team that gets it</li>
+            </ul>
+            <p class="mt-4 font-bold text-blue-900">Then you're exactly who we need on this journey.</p>
+        </div>
+
+        <div>
+            <h2 class="text-3xl font-bold mb-6 text-gray-900">What We Need From You</h2>
+            <ul class="space-y-4 text-gray-700">
+                <li><strong class="text-gray-900">Join the team:</strong> Help us design workshops, mentor students, or lead initiatives.</li>
+                <li><strong class="text-gray-900">Connect us with sponsors:</strong> Know companies or individuals invested in youth tech education?</li>
+                <li><strong class="text-gray-900">Show up:</strong> Volunteer at the fall competition, attend info sessions, be visible and supportive.</li>
+            </ul>
+            <p class="mt-6 italic text-gray-600">No matter your role—founder, volunteer, sponsor, or ally—we have a place for you.</p>
+        </div>
+    </section>
+
+    <!-- CALL TO ACTION & FORM -->
+    <section class="bg-blue-900 text-white py-16 px-6">
+        <div class="max-w-3xl mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-4">Let's Build This Together</h2>
+            <p class="mb-8 text-blue-200">Reach out to learn more or get involved. We're just getting started.</p>
+
+            <form action="/join" method="POST" class="bg-white p-8 rounded-lg shadow-lg text-left max-w-lg mx-auto">
+                <div class="mb-4">
+                    <label class="block text-gray-700 font-bold mb-2">Name</label>
+                    <input type="text" name="name" required class="w-full px-3 py-2 border rounded-lg text-gray-700 focus:outline-none focus:border-blue-500">
+                </div>
+                <div class="mb-4">
+                    <label class="block text-gray-700 font-bold mb-2">Email</label>
+                    <input type="email" name="email" required class="w-full px-3 py-2 border rounded-lg text-gray-700 focus:outline-none focus:border-blue-500">
+                </div>
+                <div class="mb-6">
+                    <label class="block text-gray-700 font-bold mb-2">How do you want to help?</label>
+                    <select name="role" class="w-full px-3 py-2 border rounded-lg text-gray-700 focus:outline-none focus:border-blue-500">
+                        <option value="Mentor/Team">Join the Team / Mentor</option>
+                        <option value="Sponsor">Sponsorship Connections</option>
+                        <option value="Volunteer">Event Volunteer</option>
+                        <option value="Other">Other / Just want to chat</option>
+                    </select>
+                </div>
+                <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-4 rounded-lg transition duration-200">
+                    Get Involved
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-gray-900 text-gray-400 text-center py-6">
+        <p>&copy; 2026 Venture Tomorrow. Markham, ON.</p>
+    </footer>
+
+</body>
+</html>
