@@ -27,11 +27,15 @@ def join_team():
 
 @app.route('/view-data')
 def view_data():
+    # Get the password from the URL
     provided_password = request.args.get('password')
 
-    if provided_password != MY_SECRET_PASSWORD:
+    # 1. Check if the password is None (meaning it's missing)
+    # 2. Check if the password doesn't match the environment variable
+    if not provided_password or provided_password != MY_SECRET_PASSWORD:
         return "Access Denied. 🛑", 403
 
+    # If we made it here, the password was provided AND it is correct
     try:
         with open("signups.txt", "r") as file:
             data = file.read()
