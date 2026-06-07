@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3b4e2cf-5a48-41cd-8545-a1fcc0f4b15e" name="Changes" comment="MORE NEW THING" />
+    <list default="true" id="e3b4e2cf-5a48-41cd-8545-a1fcc0f4b15e" name="Changes" comment="New google API is added for data to be stored in a sheet I created.">
+      <change beforePath="$PROJECT_DIR$/credentials.json" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,21 +15,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "RMSH0410"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;RMSH0410&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/RMSH0410/venture-tomorrow",
-    "accountId": "0f199844-36e8-4dc4-b03f-c00a81261f74"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/RMSH0410/venture-tomorrow.git&quot;,
+    &quot;accountId&quot;: &quot;0f199844-36e8-4dc4-b03f-c00a81261f74&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="3EeNs4GCdLmGrMtZLrPilj4y9sh" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -46,9 +48,15 @@
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/Users/ramushu/Desktop/Venture_tomorrow",
     "to.speed.mode.migration.done": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -80,7 +88,47 @@
       <option name="project" value="LOCAL" />
       <updated>1780537982203</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="MORE NEW THING">
+      <option name="closed" value="true" />
+      <created>1780538373000</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1780538373000</updated>
+    </task>
+    <task id="LOCAL-00004" summary="New google API is added for data to be stored in a sheet I created.">
+      <option name="closed" value="true" />
+      <created>1780798958220</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1780798958220</updated>
+    </task>
+    <task id="LOCAL-00005" summary="New google API is added for data to be stored in a sheet I created.">
+      <option name="closed" value="true" />
+      <created>1780799057336</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1780799057336</updated>
+    </task>
+    <task id="LOCAL-00006" summary="New google API is added for data to be stored in a sheet I created.">
+      <option name="closed" value="true" />
+      <created>1780799086577</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1780799086577</updated>
+    </task>
+    <task id="LOCAL-00007" summary="New google API is added for data to be stored in a sheet I created.">
+      <option name="closed" value="true" />
+      <created>1780799994951</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1780799994951</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -97,6 +145,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="GOSH I cannot spell" />
     <MESSAGE value="MORE NEW THING" />
-    <option name="LAST_COMMIT_MESSAGE" value="MORE NEW THING" />
+    <MESSAGE value="New google API is added for data to be stored in a sheet I created." />
+    <option name="LAST_COMMIT_MESSAGE" value="New google API is added for data to be stored in a sheet I created." />
   </component>
 </project>
