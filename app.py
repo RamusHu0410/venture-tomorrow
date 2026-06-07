@@ -1,21 +1,24 @@
 import os
+import json
 from flask import Flask, render_template, request
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 import datetime
 
-
 app = Flask(__name__)
 
-# This pulls the password from the environment, not hardcoded
-MY_SECRET_PASSWORD = os.environ.get("ADMIN_PASSWORD")
+# --- CONFIGURATION ---
+# 1. Fetch credentials from an Environment Variable
+creds_dict = json.loads(os.environ.get("GOOGLE_APPLICATION_CREDENTIALS_JSON"))
 scope = [
     "https://www.googleapis.com/auth/spreadsheets",
     "https://www.googleapis.com/auth/drive"
 ]
-creds = ServiceAccountCredentials.from_json_keyfile_name('credentials.json', scope)
+
+# 2. Authorize using the dictionary instead of a file
+creds = ServiceAccountCredentials.from_json_keyfile_dict(creds_dict, scope)
 client = gspread.authorize(creds)
-sheet = client.open("VentureTomorrowDB").sheet1 # Replace with your sheet name
+sheet = client.open("VentureTomorrowDB").sheet1
 
 @app.route('/')
 def home():
