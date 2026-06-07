@@ -9,6 +9,7 @@ app = Flask(__name__)
 
 # --- CONFIGURATION ---
 # 1. Fetch credentials from an Environment Variable
+MY_SECRET_PASSWORD = os.environ.get("ADMIN_PASSWORD")
 creds_dict = json.loads(os.environ.get("GOOGLE_APPLICATION_CREDENTIALS_JSON"))
 scope = [
     "https://www.googleapis.com/auth/spreadsheets",
