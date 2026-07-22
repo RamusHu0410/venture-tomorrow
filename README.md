@@ -1,8 +1,11 @@
-The venture tomorrow website source code for render to deploy
-It has been deployed in https://venture-tomorrow.onrender.com/
+Venture Tomorrow — venture engine for next-gen tech, built with Next.js 15, TypeScript, Tailwind CSS, and Framer Motion.
 
-In fact this is Ramus' first project about deploying website
+Deployed at https://venture-tomorrow.onrender.com/
 
-Feats:
-  - The result of final part of this website is store a google table
+## Getting Started
 
+```bash
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) to view it locally.
