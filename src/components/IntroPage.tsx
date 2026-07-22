@@ -24,7 +24,7 @@ export function IntroPage() {
       {/* top hairline nav-ish rule with system label */}
       <div className="relative z-10 mx-auto flex max-w-7xl items-center justify-between px-6 pt-8 sm:px-10">
         <span className="font-heading text-sm font-semibold tracking-wide text-chrome">
-          VENTURE TOMORROW™
+          VENTURE TOMORROW&trade;
         </span>
         <div className="hidden sm:block">
           <TechLabel dot={false}>Largest AI education platform in Ontario</TechLabel>

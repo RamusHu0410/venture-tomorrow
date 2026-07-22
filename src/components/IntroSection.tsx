@@ -32,7 +32,7 @@ export function IntroSection() {
             Who are we?
           </h2>
           <p className="mt-6 max-w-2xl text-balance font-body text-base leading-relaxed text-silver sm:text-lg">
-            Like I mean what do we do? What's our ambition etc.
+            Like I mean what do we do? What&apos;s our ambition etc.
             SOMEONE TELL ME WHAT TO PUT HERE YEAH RAMUS LEAVES EXACTLY THREE LINE HERE
             SOMEONE TELL ME WHAT TO PUT HERE YEAH RAMUS LEAVES EXACTLY THREE LINE HERE
           </p>
