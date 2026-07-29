@@ -1,6 +1,5 @@
-Venture Tomorrow — venture engine for next-gen tech, built with Next.js 15, TypeScript, Tailwind CSS, and Framer Motion.
-
-Deployed at https://venture-tomorrow.onrender.com/
+Deployed at https://venture-tomorrow.vercel.app
+Old version: https://venture-tomorrow.onrender.com/
 
 ## Getting Started
 

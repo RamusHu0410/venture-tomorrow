@@ -29,12 +29,12 @@ export function IntroSection() {
         >
           <TechLabel>Keep with the innovation</TechLabel>
           <h2 className="metal-text mt-6 max-w-3xl font-heading text-4xl font-bold uppercase leading-[1.05] tracking-tight sm:text-5xl lg:text-6xl">
-            Who are we?
+            Who are we
           </h2>
           <p className="mt-6 max-w-2xl text-balance font-body text-base leading-relaxed text-silver sm:text-lg">
-            Like I mean what do we do? What&apos;s our ambition etc.
-            SOMEONE TELL ME WHAT TO PUT HERE YEAH RAMUS LEAVES EXACTLY THREE LINE HERE
-            SOMEONE TELL ME WHAT TO PUT HERE YEAH RAMUS LEAVES EXACTLY THREE LINE HERE
+            We run free, project-based AI bootcamps, hackathons, and speaker series for
+            students across Ontario. Our members leave with a shipped product, a network
+            of founders and engineers, and the confidence to start their own venture.
           </p>
         </motion.div>
 
@@ -49,11 +49,12 @@ export function IntroSection() {
             <GlassPanel className="h-full p-8 sm:p-10">
               <TechLabel className="text-silver/50">PROBLEM // 002.A</TechLabel>
               <h3 className="mt-5 font-heading text-2xl font-semibold text-chrome">
-                Event1
+                The AI skills gap starts in high school
               </h3>
               <p className="mt-4 font-body text-base leading-relaxed text-silver/80">
-                SOMEONE TELL ME WHAT TO PUT HERE YEAH RAMUS LEAVES EXACTLY THREE LINE HERE
-                SOMEONE TELL ME WHAT TO PUT HERE YEAH RAMUS LEAVES EXACTLY THREE LINE HERE
+                Most students graduate having never built a real machine learning project
+                or talked to someone actually working in AI. By the time they reach
+                university, they&rsquo;re already years behind their peers.
               </p>
             </GlassPanel>
           </motion.div>
@@ -68,11 +69,12 @@ export function IntroSection() {
             <GlassPanel className="h-full border-blue/20 p-8 sm:p-10">
               <TechLabel className="text-blue/70">SOLUTION // 002.B</TechLabel>
               <h3 className="mt-5 font-heading text-2xl font-semibold text-chrome">
-                Event2
+                A program built and run by students, for students
               </h3>
               <p className="mt-4 font-body text-base leading-relaxed text-silver/80">
-                SOMEONE TELL ME WHAT TO PUT HERE YEAH RAMUS LEAVES EXACTLY THREE LINE HERE
-                SOMEONE TELL ME WHAT TO PUT HERE YEAH RAMUS LEAVES EXACTLY THREE LINE HERE
+                Venture Tomorrow pairs cohorts with mentors from industry to build real AI
+                products in weeks, not years, then gives them the stage, funding leads, and
+                network to turn that project into a venture.
               </p>
             </GlassPanel>
           </motion.div>
