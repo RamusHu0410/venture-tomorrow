@@ -5,11 +5,13 @@ import { GlassPanel } from "@/components/GlassPanel";
 
 const events = [
   {
-    date: "TBD",
-    title: "Kickoff Hackathon",
+    date: "2026.08.01",
+    title: "Kickoff tutorial & team formation",
     location: "Markham, ON",
     description:
-      "A weekend build sprint where new members shipped their first AI project in teams.",
+      "Larp fest.",
+    image: undefined,
+    imageSize: 180,
   },
   {
     date: "TBD",
@@ -17,6 +19,8 @@ const events = [
     location: "Virtual",
     description:
       "Our speakers explaining common AI security vulnerabilities by attacking sample models.",
+    image: undefined,
+    imageSize: 180,
   },
   {
     date: "TBD",
@@ -24,8 +28,24 @@ const events = [
     location: "Markham, ON",
     description:
       "Cohort members pitched their final projects to mentors, partners, and local founders.",
+    image: undefined,
+    imageSize: 180,
   },
 ];
+
+function EventImage({ src, size = 180 }: { src?: string; size?: number }) {
+  return (
+    <div
+      className="mb-5 w-full overflow-hidden rounded-xl border border-silver/10 bg-graphite/40"
+      style={{ height: size }}
+    >
+      {src && (
+        // eslint-disable-next-line @next/next/no-img-element
+        <img src={src} alt="" className="h-full w-full object-cover" />
+      )}
+    </div>
+  );
+}
 
 export default function EventsPage() {
   return (
@@ -47,6 +67,7 @@ export default function EventsPage() {
         <div className="mt-14 grid grid-cols-1 gap-6 lg:grid-cols-3">
           {events.map((event) => (
             <GlassPanel key={event.title} className="h-full p-8">
+              <EventImage src={event.image} size={event.imageSize} />
               <TechLabel dot={false} className="text-silver/50">
                 {event.date} &middot; {event.location}
               </TechLabel>
@@ -56,6 +77,7 @@ export default function EventsPage() {
               <p className="mt-3 font-body text-sm leading-relaxed text-silver/80">
                 {event.description}
               </p>
+
             </GlassPanel>
           ))}
         </div>

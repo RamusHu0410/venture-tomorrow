@@ -7,4 +7,4 @@ Old version: https://venture-tomorrow.onrender.com/
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) to view it locally.
+Open [http://localhost:3000](http://localhost:3000) to view it locally
