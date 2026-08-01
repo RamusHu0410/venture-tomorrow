@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Space_Grotesk, Inter, IBM_Plex_Mono } from "next/font/google";
 import "./globals.css";
+import { SiteFooter } from "@/components/SiteFooter";
 
 const spaceGrotesk = Space_Grotesk({
   variable: "--font-heading",
@@ -38,6 +39,7 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col bg-graphite text-chrome font-body">
         {children}
+        <SiteFooter />
       </body>
     </html>
   );

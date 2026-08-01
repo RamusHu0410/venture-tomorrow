@@ -35,7 +35,7 @@ export function IntroPage() {
             animate="visible"
             custom={0.15}
             variants={fadeUp}
-            className="mt-6 font-heading text-[13vw] font-bold uppercase leading-[0.95] tracking-tight sm:text-6xl lg:text-7xl"
+            className="mt-6 font-heading text-[15vw] font-bold uppercase leading-[0.95] tracking-tight sm:text-6xl lg:text-7xl"
           >
             <span className="metal-text block">Building</span>
             <span className="metal-text block">Tomorrow&rsquo;s</span>
